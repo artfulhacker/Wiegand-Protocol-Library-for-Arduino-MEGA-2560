@@ -209,7 +209,7 @@ bool WIEGAND::DoWiegandConversion ()
 			_bitCountB=0;
 			_cardTempB=0;
 			_cardTempHighB=0;
-			_GateActive=1;
+			_GateActive=2;
 			_codeB=cardIDB;
 			return true;				
 		}
